@@ -12,8 +12,8 @@
 
 <body class="body-styles">
     <h1>Node Tutorial for Authentication and Authorization</h1>
-    <p>This is a simple app to mock SaaS apps.</p>
     <p>Error in login in.</p>
+    <p>Please check user name and password</p>
 
     <form action="/login" method="POST">
         <label for="fname">First name:</label><br>
@@ -21,6 +21,9 @@
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" value="Doe"><br><br>
         <input type="submit" value="Submit">
+    </form>
+    <form action="/new-users" method="GET">
+        <input type="submit" value="New User" />
     </form>
 </body>
 

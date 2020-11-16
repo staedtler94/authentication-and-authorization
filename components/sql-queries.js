@@ -1,5 +1,5 @@
 module.exports.queries = {
-  "auth-table-creation": `CREATE TABLE Persons (
+  "auth-table-creation": `CREATE TABLE Users (
         userID integer Primary Key AUTOINCREMENT,
         userName varchar(100) NOT NULL,
         password varchar(256) NOT NULL,
